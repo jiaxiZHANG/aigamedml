@@ -10,11 +10,9 @@
 #include "sun.h"
 using namespace std;
 
-/*源码公开部分为   dml推理部分   send移动部分   GUI界面部分
+/*dml推理部分   send移动部分   GUI界面部分
 
 	已移除移动算法，以及部分 对接API。
-
-	自建项目并且导入CPP后学习  如果这都不会，那你可以把源码删了。
 
 	整套源码可以直接编译通过，如果有报错请检查是否导入opencv库路径。
 
