@@ -1,0 +1,9 @@
+﻿  main.cpp
+C:\Users\Z1529\source\repos\AIVtest\AIVtest\dml\module.h(3,10): error C1083: 无法打开包括文件: “dml/dml_provider_factory.h”: No such file or directory
+  (编译源文件“main.cpp”)
+  
+  module.cpp
+C:\Users\Z1529\source\repos\AIVtest\AIVtest\dml\module.h(3,10): error C1083: 无法打开包括文件: “dml/dml_provider_factory.h”: No such file or directory
+  (编译源文件“dml/module.cpp”)
+  
+  正在生成代码...
