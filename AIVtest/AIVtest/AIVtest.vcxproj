@@ -117,7 +117,8 @@
     <Link>
       <SubSystem>Console</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <AdditionalDependencies>opencv_world4100d.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>opencv_world4100d.lib;onnxruntime.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>C:\Users\Z1529\source\repos\AIVtest\AIVtest\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
@@ -151,6 +152,8 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="bit\bit.h" />
+    <ClInclude Include="dml\cpu_provider_factory.h" />
+    <ClInclude Include="dml\dml_provider_factory.h" />
     <ClInclude Include="dml\module.h" />
     <ClInclude Include="dml\module2.h" />
     <ClInclude Include="imgui\imgui.h" />
@@ -163,11 +166,15 @@
     <ClInclude Include="imgui\imstb_truetype.h" />
     <ClInclude Include="mouse\mouse.h" />
     <ClInclude Include="nother\another.h" />
+    <ClInclude Include="onnxruntime_c_api.h" />
     <ClInclude Include="resource.h" />
     <ClInclude Include="sun.h" />
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="AIVtest.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="cpp.hint" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

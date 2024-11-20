@@ -95,10 +95,22 @@
     <ClInclude Include="sun.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="dml\cpu_provider_factory.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="dml\dml_provider_factory.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="onnxruntime_c_api.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="AIVtest.rc">
       <Filter>资源文件</Filter>
     </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="cpp.hint" />
   </ItemGroup>
 </Project>

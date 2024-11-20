@@ -10,15 +10,7 @@
 #include "sun.h"
 using namespace std;
 
-/*dml推理部分   send移动部分   GUI界面部分
 
-	已移除移动算法，以及部分 对接API。
-
-	整套源码可以直接编译通过，如果有报错请检查是否导入opencv库路径。
-
-
-
-*/
 Sun* sun = &Sun::Get();
 
 static int Gui() {
